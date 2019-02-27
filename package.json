@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js -i max -name=\"test-App\"",
+    "start": "pm2 start index.js -i max",
     "restart": "pm2 restart all",
     "test": "your test script goes here"
   },
